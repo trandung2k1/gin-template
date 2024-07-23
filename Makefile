@@ -44,6 +44,7 @@ clean:
 	@rm -f main
 
 # Live Reload
+# @air run cmd/api/main.go
 watch:
 	@if command -v air > /dev/null; then \
 	    air; \
